@@ -1,10 +1,10 @@
-// Crea un array di numeri interi e fai la somma di tutti gli elementi  che sono in posizione dispari
-const numbers = ["1","2","3","4","5","6"];
-const oddNumbers = [];
+// Crea un array di numeri interi e fai la somma di tutti gli elementi che sono in posizione dispari
+const numbers = [1,2,3,4,5,6];
 console.log(numbers);
-for (let i = 0; i < 6 ; i++) {
-    if (i[numbers] % 2 === 1) {
-        oddNumbers.push(numbers);
+const somma = 0
+for (let i = 0; i < numbers.length ; i++) {
+    if( i % 2 === 1 ) {
+        sommaDispari = somma + numbers[i];
     }
 }
-console.log(oddNumbers);
+console.log(sommaDispari);
