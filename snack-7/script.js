@@ -2,7 +2,7 @@
 const firstName = ["Mario","Luigi","Giuseppe"];
 const lastName = ["Brambilla","Salvemini","Lopalco"];
 const fullName = [];
-for (let i = 0 ; i < 2 ; i++) {
-    fullName.push(firstName + lastName);
+for (let i = 0 ; i < firstName.length ; i++) {
+    fullName.push(firstName[i] + lastName[i]);
 }
 console.log(fullName);
