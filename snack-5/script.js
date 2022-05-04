@@ -3,9 +3,8 @@
 const sixNumbers = [];
 for (let i = 0 ; i < 6 ; i++) {
     const number = Number(prompt("Inserisci un numero"));
-    console.log(number);
     if ( i % 2 === 1) {
-        sixNumbers.push(i);
+        sixNumbers.push(number);
     } else {
         console.log("è pari");
     }
