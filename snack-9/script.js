@@ -21,4 +21,3 @@ for (let i = 0 ; i < offset ; i++) {
     arrayShort.push(Math.floor(Math.random() * 100) + 1);
 }
 console.log(arrayShort);
-
